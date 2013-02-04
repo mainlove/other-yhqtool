@@ -310,7 +310,6 @@ public class View {
 						.getCellRenderer(0, 13);
 				buttonCellRendererAndEditor.updateRowButtonADD(0);
 				recordTable.setRowSelectionInterval(0, 0);
-				recordTable.setValueAt("dd", 0, 3);
 			}
 		});
 
